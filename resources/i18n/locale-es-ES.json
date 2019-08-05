@@ -27,7 +27,6 @@
     "Sair": "Exit",
     "Editar": "Edit",
     "Dados": "Data",
-    "Nascimento": "Birthdate",
     "Localização": "Location",
     "Adicionar": "Add",
     "Pular": "Skip",
@@ -44,7 +43,7 @@
     "Bloco, apartamento": "",
     "Evento": "Event",
     "Habilidades": "Skills",
-    "Gênero": "Gender",
+    "Gênero": "Gênero",
     "Indiferente": "All",
     "Formação": "Education",
     "Idiomas": "Languages",
@@ -132,10 +131,7 @@
     "Titular": "Titular",
     "Acompanhante": "ACOMPAÑANTE",
 
-    "Nome completo (conforme documento de embarque)": "Nombre (según en el pasaporte)",
     "Cargo": "Cargo",
-    "Empresa": "Empresa",
-    "Sexo": "Sexo",
     "Masculino": "M",
     "Feminino": "F",
     "Email secundário": "Correo electronico alternativo",
@@ -143,18 +139,14 @@
     "Telefone": "Teléfono residencial",
     "Celular": "Teléfono móvil",
 
-    "Rua": "Dirección",
-    "Número": "Número",
-    "Complemento": "Complemento",
-    "Bairro": "Barrio",
-    "Cidade": "Ciudad",
-    "Estado": "Provincia/ Estado",
-    "País": "País",
-    "Tipo de endereço": "Tipo de dirección",
-    "Comercial": "Empresa",
-    "Residencial": "Residencia",
 
-    "CPF": "xxxXXXxxx",
+    "Estado": "Provincia/ Estado",
+
+    "Tipo de endereço": "Tipo de dirección",
+
+
+
+
     "Data de expedição do RG": "xxxXXXxxx",
     "Órgão emissor": "xxxXXXxxx",
 
@@ -163,14 +155,12 @@
     "Validade do passaporte": "Fecha de vencimiento del pasaporte",
 
     "Data de nascimento": "Fecha de nacimiento",
-    "Nacionalidade": "Nacionalidad",
     "Cidade de nascimento": "Ciudad de nacimiento",
 
     "Estado civil": "Situación civil",
-    "Fumante": "Fumador",
     "Portador de necessidades especiais": "Portador de necesidades especiales",
 
-    "Alergias": "Alergias",
+ 
     "Restrições alimentares": "Restricciones alimentarias",
     "Informações médicas (em caso de gravidez indique aqui)": "Información Médica (en caso de embarazo indique aquí)",
 
@@ -230,6 +220,47 @@
         "DadosSucesso": "¡Sus datos fueron recibidos con éxito!"
     },
 
-    "LogoCampanha": "logo-campanha-esp.f6a35aef.svg"
+    "LogoCampanha": "logo-campanha-esp.f6a35aef.svg",
+
+    "Nome completo (conforme documento de embarque)": "Nombre (según en el pasaporte) ",
+    "Empresa": "Empresa",
+    "Sexo": "Gênero",
+    "E-mail secundário": "Correo electronico alternativo ",
+    "Cidade de Embarque": "Ciudad de embarque",
+    "Telefone Comercial": "Teléfono Comercial",
+    "Telefone Celular": "Teléfono móvil",
+    "Telefone Residencial": "Teléfono residencial",
+    "Rua": "Dirección",
+    "Número": "Número",
+    "Complemento": "Complemento",
+    "Bairro": "Barrio",
+    "Cidade": "Ciudad",
+    "UF": "Provincia / Estado",
+    "País": "País",
+    "Tipo de Endereço": "Tipo de Dirección",
+    "Comercial": "Comercial",
+    "Residencial": "Residencial",
+    "CPF": "CPF",
+    "Número do RG": "Número do RG/RNE",
+    "Data de Emissão do RG": "Data de Emissão do RG/RNE",
+    "Emissor do RG": "Emissor do RG/RNE",
+    "Número do Passaporte": "Pasaporte",
+    "Data de Emissão do Passaporte": "Fecha de Emisión del Pasaporte",
+    "Validade do Passaporte": "Fecha de Vencimiento del Pasaporte",
+    "Nascimento": "Fecha de Nacimiento",
+    "Nacionalidade": "Nacionalidad",
+    "Cidade de Nascimento": "Ciudad de nacimiento",
+    "Manequim": "Tamanho de Camiseta",
+    "Fumante": "Fumador",
+    "Portador de Necessidades Especiais": "Portador de necesidades especiales",
+    "Alergias": "Alergias",
+    "Restrições Alimentares": "Restricciones alimentarias",
+    "Informações Médicas (em caso de gravidez indique aqui)": "Información Médica (en caso de embarazo indique aquí)",
+    "Nome do Contato de Emergência": "Nombre del contacto de emergencia",
+    "Telefone do Contato de Emergência": "Teléfono fijo del contacto de emergencia",
+    "Celular do Contato de Emergência": "Teléfono móvil del contacto de emergencia",
+    "Tipo de acomodação": "Habitación",
+    "Uma cama": "Una cama",
+    "Duas camas": "Duas camas"
     
 }
