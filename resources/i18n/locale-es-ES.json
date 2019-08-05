@@ -181,7 +181,7 @@
         "2XG": "XXXXL"
     },
 
-    "Em caso de dúvidas entre em contato com": "En caso de duda, póngase en contacto <u><a href='mailto:{{footeremail}}'>con nosotros</a></u> al teléfono {{footertelefone}}",
+    "Em caso de dúvidas entre em contato com": "Si tiene alguna pregunta, contáctenos al {{footertelefone}} o por correo electrónico a <u><a href='mailto:{{footeremail}}'>{{footeremail}}</a></u>",
     
     "Hospedagem: quarto com 1 cama ou 2 camas": "Habitación: con 1 cama o 2 camas",
     "1 cama": "1 cama",
@@ -224,7 +224,7 @@
 
     "Nome completo (conforme documento de embarque)": "Nombre (según en el pasaporte) ",
     "Empresa": "Empresa",
-    "Sexo": "Gênero",
+    "Sexo": "Género",
     "E-mail secundário": "Correo electronico alternativo ",
     "Cidade de Embarque": "Ciudad de embarque",
     "Telefone Comercial": "Teléfono Comercial",
@@ -250,7 +250,7 @@
     "Nascimento": "Fecha de Nacimiento",
     "Nacionalidade": "Nacionalidad",
     "Cidade de Nascimento": "Ciudad de nacimiento",
-    "Manequim": "Tamanho de Camiseta",
+    "Manequim": "Talla de camiseta",
     "Fumante": "Fumador",
     "Portador de Necessidades Especiais": "Portador de necesidades especiales",
     "Alergias": "Alergias",
