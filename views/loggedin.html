@@ -17,15 +17,6 @@
         <div class="collapse navbar-collapse" id="menuprincipal">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#!/conteudo">Conteúdo</a>
-                </li>
-                <li>
-                    <a href="#!/dicas">dicas</a>
-                </li>
-                <li>
-                    <a href="#!/voo">Voo</a>
-                </li>
-                <li>
                     <a href="#!/upload">Documentos</a>
                 </li>
                 <li>
@@ -41,20 +32,25 @@
     </div>
 </nav>
 
-<div class="page-header clear-filter purple-filter " style="position: relative; overflow: hidden; background-image: url('images/cover-loggedin.d1383cc8.jpg'); background-size: cover;
-background-position: center bottom;">
+<div class="page-header clear-filter purple-filter " style="position: relative; overflow: hidden;">
     <div class="" style="" data-rellax-speed="-1" data-rellax-percentage="0">
-        <div class="container">
+        <img class="img-responsive img-header-loggedin hidden-xs" src="images/cover-loggedin.d1383cc8.jpg" alt="{{appTitle}}" />
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-4">
                     <img class="img-responsive page-header-logo" src="images/logo-campanha.97abd620.png" alt="{{appTitle}}" />
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="container">
     <div class="main main-raised">
+        <div ng-if="!stateIsLoading">
+            <img src="../images/header-00-inteiro.71a86b0c.jpg" alt="" class="img-responsive hidden-xs">
+            <img src="../images/header-01.1000a1de.jpg" alt="" class="img-responsive visible-xs">
+            <img src="../images/header-02.7a60aaae.jpg" alt="" class="img-responsive visible-xs">
+        </div>
         <div class="section section-basic">
             <div class="row" style="position: relative;">
                 <div class="col-xs-12">
@@ -71,13 +67,15 @@ background-position: center bottom;">
 <div class="footer">
     <div ng-include="'/views/footer.html'"></div>
     <div class="container">
-        <div class="language-select text-center" ng-controller="LanguageselectCtrl" ng-if="Utils.keys(grupo.multilingua.linguas).length > 1">
+        <div class="language-select text-center" ng-controller="LanguageselectCtrl"
+            ng-if="Utils.keys(grupo.multilingua.linguas).length > 1">
 
             <ul class="list-inline" style="margin-bottom: 0;">
                 <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></li>
                 <li ng-repeat="(key, value) in localesNamesWithKeys">
                     <small>
-                        <a href="" ng-click="changeLanguage(key)" ng-class="key === currentLocaleDisplayName ? 'text-underline' : ''">
+                        <a href="" ng-click="changeLanguage(key)"
+                            ng-class="key === currentLocaleDisplayName ? 'text-underline' : ''">
                             <span></span> {{value}}</a>
                     </small>
                 </li>
