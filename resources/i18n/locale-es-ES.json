@@ -265,6 +265,7 @@
     "Uma cama": "Una cama",
     "Duas camas": "Duas camas",
     "seja bem-vindo(a)!": "bienvenido(a)!",
-    "O prazo limite é dia": "La fecha límite es el día"
+    "O prazo limite é dia": "La fecha límite es el día",
+    "Por favor, clique aqui para insirir a foto do seu documento": "Haga <a href='#!/upload'>clic aqui</a> para cargar la foto de su documento"
     
 }
