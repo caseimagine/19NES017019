@@ -61,7 +61,7 @@
     "Página anterior": "Previous page",
     "Próxima página": "Next page",
     "Ordenar por": "Order by",
-    "Perfil": "Profile",
+    "Perfil": "Perfil",
     "Recuperar senha": "Reset password",
     "Atualizar": "Update",
     "Atualizado!": "Updated!",
@@ -114,7 +114,7 @@
 
     "Não se pode apagar o evento após seu início": "Can not delete event after start",
 
-    "Insira seu e-mail": "Introduce tu e-mail",
+    "Insira seu e-mail": "Introduzca tu e-mail",
     "Insira um e-mail válido": "Introduzca un e-mail válido",
 
     "Profile":{
@@ -142,16 +142,16 @@
 
     "Estado": "Provincia/ Estado",
 
-    "Tipo de endereço": "Tipo de dirección",
+    "Tipo de endereço": "Dirección",
 
-
+    "Endereço": "Dirección",
 
 
     "Data de expedição do RG": "xxxXXXxxx",
     "Órgão emissor": "xxxXXXxxx",
 
     "Passaporte": "Pasaporte",
-    "Emissão do passaporte": "Fecha de emisión del pasaporte",
+    "Emissão do passaporte": "fecha de la emision de pasaporte",
     "Validade do passaporte": "Fecha de vencimiento del pasaporte",
 
     "Data de nascimento": "Fecha de nacimiento",
@@ -162,7 +162,7 @@
 
  
     "Restrições alimentares": "Restricciones alimentarias",
-    "Informações médicas (em caso de gravidez indique aqui)": "Información Médica (en caso de embarazo indique aquí)",
+    "Informações médicas (em caso de gravidez indique aqui)": "Información Médica (en caso de embarazo apunte aquí)",
 
     "Nome do contato de emergência": "Nombre del contacto de emergencia",
     "Telefone do contato de emergência": "Teléfono fijo del contacto de emergencia",
@@ -198,7 +198,7 @@
 
     "Upload":{
         "Title":"Upload de la página de la foto del pasaporte",
-        "Descricao":"Haga subir su pasaporte digitalizado. Una vez finalizada la inscripción, ya no podrá cambiar sus datos.",
+        "Descricao":"Carge su pasaporte digitalizado. Una vez finalizada la inscripción, ya no podrá cambiar sus datos.",
         "DetalheComParticipante": "Usted debe definir a qué participante el archivo es referente (titular o acompañante) para completar la inscripción.",  
         "SelecioneArraste": "Arrastre sus archivos aquí",
         "Ou": "o",
@@ -208,7 +208,7 @@
         "Progresso": "Progreso",
         "Atencao": "Atención",
         "ErroDefinirParticipante": "Debe definir individualmente la referencia de cada archivo",
-        "Finalizar": "Finalizar registro",
+        "Finalizar": "Finalizar suscricción",
         "Send": "Enviar",
         "CancelarTodos": "Cancelar todos",
         "RemoverTodos": "Quitar todos",
@@ -222,7 +222,7 @@
 
     "LogoCampanha": "logo-campanha-esp.f6a35aef.svg",
 
-    "Nome completo (conforme documento de embarque)": "Nombre (según en el pasaporte) ",
+    "Nome completo (conforme documento de embarque)": "Nombre (exactamante como está en su pasaport) ",
     "Empresa": "Empresa",
     "Sexo": "Género",
     "Gênero": "Género",
@@ -233,7 +233,7 @@
     "Telefone Residencial": "Teléfono residencial",
     "Rua": "Dirección",
     "Número": "Número",
-    "Complemento": "Complemento",
+    "Complemento": "Complemento de la dirección",
     "Bairro": "Barrio",
     "Cidade": "Ciudad",
     "UF": "Provincia / Estado",
@@ -247,14 +247,14 @@
     "Emissor do RG": "Emissor do RG/RNE",
     "Número do Passaporte": "Pasaporte",
     "Data de Emissão do Passaporte": "Fecha de Emisión del Pasaporte",
-    "Validade do Passaporte": "Fecha de Vencimiento del Pasaporte",
+    "Validade do Passaporte": "Fecha del vencimento de pasaporte",
     "Nascimento": "Fecha de Nacimiento",
     "Nacionalidade": "Nacionalidad",
-    "Cidade de Nascimento": "Ciudad de nacimiento",
-    "Manequim": "Talla de camisa",
+    "Cidade de Nascimento": "Ciudad natal",
+    "Manequim": "Talla de su camisa",
     "Tamanho de Camiseta": "Talla de camisa",
     "Fumante": "Fumador",
-    "Portador de Necessidades Especiais": "Portador de necesidades especiales",
+    "Portador de Necessidades Especiais": "Portador de discapacidad? Cual?",
     "Alergias": "Alergias",
     "Restrições Alimentares": "Restricciones alimentarias",
     "Informações Médicas (em caso de gravidez indique aqui)": "Información Médica (en caso de embarazo indique aquí)",
@@ -265,7 +265,7 @@
     "Uma cama": "Una cama",
     "Duas camas": "Duas camas",
     "seja bem-vindo(a)!": "bienvenido(a)!",
-    "O prazo limite é dia": "La fecha límite es el día",
-    "Por favor, clique aqui para insirir a foto do seu documento": "Haga <a href='#!/upload'>clic aqui</a> para cargar la foto de su documento"
+    "O prazo limite é dia": "La fecha límite de suscripción es el día",
+    "Por favor, clique aqui para inserir a foto do seu documento": "Haga <a href='#!/upload'>clic aqui</a> para cargar la foto de su documento"
     
 }
