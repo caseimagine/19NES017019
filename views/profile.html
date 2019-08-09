@@ -16,7 +16,7 @@
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 
-<form name="userForm" ng-submit="submitForm(userForm.$valid)" ng-if="titular">
+<form name="userForm" ng-submit="submitForm(userForm.$valid)" ng-if="titular && formulario.lists['Campos definidos']">
     <fieldset ng-repeat="atribuido in formulario.lists['Campos definidos'] | groupBy:'atribuicao'"
         ng-disabled="disableFields()">
 
