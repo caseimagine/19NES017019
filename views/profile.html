@@ -115,6 +115,12 @@
 
         </div>
     </fieldset>
+    <div ng-if="perfilEditado" class="alert alert-success">
+        <div class="alert-icon">
+            <i class="material-icons">check</i>
+        </div>
+        <span translate>Perfil editado com sucesso!</span>
+    </div>
     <div ng-if="userForm.$error.required || userForm.$error.mask || userForm.$error.email" class="alert alert-danger">
         <div class="alert-icon">
             <i class="material-icons">error_outline</i>
@@ -129,7 +135,8 @@
         <span translate>Campos com erro se encontram marcados com um X</span>
     </div>
     <button type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid"
-        ng-show="canSubmit()"><span translate>Enviar</span></button>
+        ng-show="canSubmit()"><span translate>Enviar</span></button> <button ng-click="proximoPasso()" class="btn btn-default" ng-disabled="submitting"
+        ><span translate>Próximo passo</span></button>
 </form>
 
 <br>
