@@ -181,7 +181,7 @@
         "2XG": "XXXXL"
     },
 
-    "Em caso de dúvidas entre em contato com": "Si tiene alguna pregunta, contáctenos al {{footertelefone}} o por correo electrónico a <u><a href='mailto:{{footeremail}}'>{{footeremail}}</a></u>",
+    "Em caso de dúvidas entre em contato com": "Si tiene alguna pregunta, contáctenos al {{footertelefone}} o por <u><a href='mailto:{{footeremail}}'>correo electrónico</a></u>",
     
     "Hospedagem: quarto com 1 cama ou 2 camas": "Habitación: con 1 cama o 2 camas",
     "1 cama": "1 cama",
