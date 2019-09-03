@@ -5,11 +5,13 @@
 </p>
 
 <div class="alert alert-success text-center" role="alert" ng-hide="canSubmit()">
-    <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span translate="Sucesso.DadosSucesso"></span></p>
+    <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span
+            translate="Sucesso.DadosSucesso"></span></p>
 </div>
 
 <div class="alert alert-warning text-center" role="alert" ng-if="titular.Status === -2 || titular.Status === '-2'">
-    <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span translate>Por favor, clique aqui para inserir a foto do seu documento</span>.</p>
+    <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span translate>Por favor, clique
+            aqui para inserir a foto do seu documento</span>.</p>
 </div>
 
 <p><span translate>O prazo limite é dia</span> {{grupo.deadlineInscricao}}.</p>
@@ -135,8 +137,9 @@
         <span translate>Campos com erro se encontram marcados com um X</span>
     </div>
     <button type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid"
-        ng-show="canSubmit()"><span translate>Enviar</span></button> <button ng-click="proximoPasso()" class="btn btn-default" ng-disabled="submitting"
-        ><span translate>Próximo passo</span></button>
+        ng-show="canSubmit()"><span translate>Enviar</span></button>
+    <button ng-click="proximoPasso()" class="btn btn-default" ng-disabled="submitting"  ng-if="currentLocaleDisplayName === 'es-ES'"><span translate>Próximo
+            passo</span></button>
 </form>
 
 <br>

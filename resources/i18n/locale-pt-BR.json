@@ -168,7 +168,7 @@
     "Nome do contato de emergência": "Nome do contato de emergência",
     "Telefone do contato de emergência": "Telefone do contato de emergência",
     "Celular do contato de emergência": "Celular do contato de emergência",
-    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, entre em contato <u><a href='mailto:{{footeremail}}'>conosco</a></u> pelo telefone {{footertelefone}}",
+    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, entre em contato pelo <u><a href='mailto:{{footeremail}}'>e-mail</a></u> ou pelo telefone {{footertelefone}}",
     "Insira seu e-mail": "Insira seu e-mail",
     "Insira um e-mail válido": "Insira um e-mail válido",
 
@@ -222,5 +222,6 @@
     
     "LogoCampanha": "logo-campanha.3e00eb81.svg",
 
-    "Por favor, clique aqui para inserir a foto do seu documento": "Por favor, <a href='#!/upload'>clique aqui</a> para inserir a foto do seu documento"
+    "Por favor, clique aqui para inserir a foto do seu documento": "Por favor, <a href='#!/upload'>clique aqui</a> para inserir a foto do seu documento",
+    "Perfil editado com sucesso!": "Inscrição realizada com sucesso!"
 }
