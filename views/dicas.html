@@ -13,8 +13,8 @@
     <i class="icon-search"></i>
 </form> -->
 
-<div class="row dynamic-grid" angular-grid="dicasDataFiltered" ag-refresh-on-img-load="true">
-    <div class="col-xs-12 col-sm-6 col-md-4 grid" data-ng-repeat="dica in dicasDataFiltered">
+<div class="row dynamic-grid" angular-grid="dicasData" ag-refresh-on-img-load="true">
+    <div class="col-xs-12 col-sm-6 col-md-4 grid" data-ng-repeat="dica in dicasData">
         <div class="card-padrao com-icone well">
             <h3>{{dica.titulo}}</h3>
             <ng-bind-html ng-bind-html="dica.conteudo"></ng-bind-html>
